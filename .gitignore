@@ -1,0 +1,21 @@
+node_modules/
+dist/study.html
+dist/preview/
+__pycache__/
+*.pyc
+.venv/
+backend/.env
+*.log
+.pytest_cache/
+log/
+
+# Rust build output
+target/
+desktop/src-tauri/target/
+desktop/src-tauri/gen/
+
+# local databases and backups
+*.sqlite
+*.sqlite3
+*.db
+*.bak

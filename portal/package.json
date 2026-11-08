@@ -1,0 +1,27 @@
+{
+  "name": "craft-health-quality-portal",
+  "private": true,
+  "version": "0.7.0",
+  "type": "module",
+  "description": "المنصة المركزية (Web Portal) — النظام الوطني لإدارة مؤشرات الأداء الصحي والجودة وسلامة المرضى",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test:e2e": "node e2e/portal.e2e.mjs"
+  },
+  "dependencies": {
+    "echarts": "^5.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.9"
+  }
+}
